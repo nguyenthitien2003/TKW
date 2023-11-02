@@ -1,0 +1,92 @@
+.mango_form .mango_logo{
+    width: 100%;
+}
+.mango_form .mango_logo>img{
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.mango_form{
+    display:flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px ridge gainsboro;
+    padding: 10px 10px 10px 20px;
+}
+
+
+.mango_form .item{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1vw;
+    width: 95%;
+    margin-top: 10px;
+}
+
+
+.mango_form .item>label{
+    font-size: 2vw;
+    width: 40%;
+}
+
+
+.mango_form .item>input{
+    font-size: 2vw;
+    width: 60%;
+}
+
+
+.mango_form .agree>input{
+    width: 2.5vw;
+}
+.mango_form .agree>label{
+    width: 100%;
+    font-size: 2vw;
+}
+
+
+.mango_form .button_book{
+    width: 40%;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width:640px){
+    .mango_form{
+        width: 90%;
+    }
+   
+    .mango_form .item{
+        display: flex;
+        flex-direction: column;
+    }
+   
+    .mango_form .item>label{
+        font-size: 4vw;
+        width: 40%;
+    }
+   
+    .mango_form .item>input{
+        font-size: 4vw;
+        width: 100%;
+    }
+   
+    .mango_form .agree{
+        display: block;
+    }
+    .mango_form .agree>input{        
+        width: 4vw;
+    }
+    .mango_form .agree>label{
+        width: 90%;
+        font-size: 4vw;
+    }
+   
+    .mango_form .button_book{
+        width:95%;
+    }
+}
